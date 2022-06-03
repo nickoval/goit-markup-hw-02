@@ -1,0 +1,103 @@
+:root {
+    --accent-color: #2196F3;
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --footer-bg-color: #2F303A;
+    --team-bg-color: #F5F4FA;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Raleway', sans-serif;
+}
+
+
+body {
+    box-sizing: border-box;
+    color: var(--main-text-color);
+    margin: 0;
+    padding: 0;
+
+
+    /* 
+    list-style-type:none; */
+
+    font-family: var(--main-font);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing:  0.03em;
+}   
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+.logo {
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+}
+.logo-tail {
+    color: var(--black-color);
+}
+
+.site-nav, 
+.contacts-nav {
+    list-style-type:none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.143;
+    letter-spacing: 0.02em; 
+
+}
+
+.site-nav .item,
+.contacts-nav .item {
+    color: var(--title-text-color);
+}
+
+.site-nav .item:hover,
+.site-nav .item:focus,
+.contacts-nav .item:hover,
+.contacts-nav .item:focus {
+    color: var(--accent-color);
+}
+
+.section
+ {
+    margin-bottom: 94px;
+}
+
+
+/* !!!! Секция Герой !!! */
+.hero {
+    width: 1600px;
+    height: 600px;
+    background-color: var(--footer-bg-color);
+    text-align: center;
+}
+
+
+
+
+.hero-title {
+    /* margin-top: 200px; */
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+
+
+}
+
