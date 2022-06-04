@@ -28,11 +28,11 @@ body {
     letter-spacing:  0.03em;
 }   
 
-a {
+.link {
     text-decoration: none;
 }
 
-ul {
+.list {
     list-style: none;
     padding-inline-start: 0;
 }
@@ -113,7 +113,7 @@ ul {
 .button {
     width: 200px;
     height: 50px;
-    padding: 10px auto;
+    /* padding: 10px auto; */
     cursor: pointer;
     font-weight: 700;
     font-size: 16px;
